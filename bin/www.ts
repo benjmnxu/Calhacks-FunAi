@@ -10,7 +10,7 @@ import http from 'http';
 import debugg from 'debug';
 
 const debug = debugg('Pinterest-Clone:server');
-const appPath = process.env.NODE_ENV === 'development' ? '../server/app' : '../app';
+const appPath = '../server/app';
 // eslint-disable-next-line import/no-dynamic-require
 const app = require(appPath).default;
 
